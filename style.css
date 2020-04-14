@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.rooster {
+    width: 5px;
+    height: 5px;
+}
+
+#container {
+    border: solid white 3px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px);
+}
+
+.sketchbook {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#clear {
+    background-color: red;
+    height: 60px;
+}
